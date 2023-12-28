@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+</head>
+<body>
+    <script>
+// ---------normal object
+
+        // const student = {
+        //     fullName: "Raginee Patel",
+        //     marks: 94,
+        //     printmarks : function (){
+        //         console.log(this.marks);
+        //         // THIS--current value ko show krta hai.
+        //     },
+
+        // };
+
+        const course = {
+            lecture: 10,
+            section : 3,
+            title :"javascript",
+            notes:{
+                introduction: "welcome to js"
+            },
+            enroll() {
+                console.log("you are succesfully enrolled");
+            }
+
+        }
+        course.enroll()
+     console.log(course.title)
+     console.log(course)
+
+     course.price = 999 
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 name="javascript" id="first" class="js">hello javascript</h1>
+    <h2 name="javascript" id="two" class="js">hello js</h2>
+    <h2 name="javascript" id="first" class="js">poppy </h2>
+    <h2 name="javascript" id="first" class="js"> hello maya </h2>
+
+    <button onclick="addtwovalue()">add two value</button>
+    <input id="a" value="" placeholder="enter first value">
+    <input id="b" value="" placeholder="enter second value">
+    <input id="show" value="" placeholder="result">
+
+    <script>
+        // function addtwovalue(){} ------named function -----
+
+        // function addtwovalue() {
+        //     var a = document.getElementById("a").value
+        //     var b = document.getElementById("b").value
+        //     var c = document.getElementById("show").value = parseInt(a)+parseInt(b)
+            // document.write(c)
+        // }
+
+        // -------------------anonymous function-------------------
+        // let addtwovalue = function(){
+        //     var a = document.getElementById("a").value
+        //     var b = document.getElementById("b").value
+        //     var c = document.getElementById("show").value = parseInt(a)*parseInt(b)
+
+        // }
+
+
+        // --------------------arrow function--------------------------
+        let addtwovalue=()=>{
+            var a = document.getElementById("a").value
+            var b = document.getElementById("b").value
+            var c = document.getElementById("show").value = parseInt(a)/parseInt(b)
+
+        }
+        
+
+    </script>
+
+
+</body>
+
+</html>
