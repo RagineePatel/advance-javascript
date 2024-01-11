@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>loops practice</title>
 </head>
 
 <body>
@@ -37,9 +37,16 @@
         // Qs.2. create a game where you srart with any random game number. 
         // ask the user to keep guessing the game number until the user enters correct value.
 
-        // let gameNum = 25;
+        let gameNum = 25;
 
-        // prompt
+         let userNum = prompt("Guess the game number :")
+         document.write(userNum);
+
+         while(userNum != gameNum) {
+            userNum = prompt("you enterded wrong number, Guess again")
+
+         }
+         document.write("congratulations, you entered the right number")
 
     </script>
 </body>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="main-class">
+        <h1 id="heading">Document object model</h1>
+        <h3 id="heading-2">Methods of DOM</h3>
+        <p id="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, beatae at. Natus maiores, unde voluptatum itaque architecto dolores aut nulla. Modi, libero ratione. Nemo sapiente laborum fuga quae, in quisquam.</p>
+
+        <script>
+            // Q.1.a= Write a function to select an HTML element by its id.
+
+            let head2 = document.getElementById('heading-2');
+            head2.innerHTML = '<h1>hellow DOM</h1>';
+            console.log(head2);
+
+              // Q.1.b= Write a function to select all element with a specific class.
+
+              let main = document.getElementsByClassName("main-class");
+              
+              console.log(main);
+
+        </script>
+    </div>
+    
+</body>
+</html>
